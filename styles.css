@@ -1,0 +1,25 @@
+body 
+  {
+    background-color: rgb(172, 170, 170);
+}
+h1 
+{
+    color: rgb(0, 0, 0);
+}
+
+img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(100, 99, 99);
+    color: white;
+    text-align: center;
+}
