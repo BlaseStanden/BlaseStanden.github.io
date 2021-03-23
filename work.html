@@ -44,16 +44,77 @@
     <p>.</p>
     <hr>
     
-    <h2>Welcome</h2>
+    <h2>My Work</h2>
     <p>Hello and welcome to my website. Here you will find my previous projects and works with sample code.</p>
     <hr>
     
-    <h2>This is heading 2</h2>
-    <p>This is some other text.</p>
 </body>
 
+<section>
 
-
+    <h2>My Unity Projects</h2>
+    <p style= "padding-bottom: 20px; padding-left: 25%; padding-right: 25%;" >VR Digital Redesign:</p>
+    <p style= "padding-bottom: 20px; padding-left: 25%; padding-right: 25%;" >
+        During my time at Aura, I was tasked with making 
+        a digital redesign of the digital suite in the Aura Innovation Center.
+        The focus of redesigning this room in virtual reality was to give potential Small and Medium Enterprises (SMEs) 
+        a visual representation on how they can utilise the space and how they could use it.</p>
+    <p style= "padding-bottom: 20px; padding-left: 25%; padding-right: 25%;" >
+        This project was created using the Unity Game Engine and the Unity XR SDK. 
+        Elements such as a VR Rig, teleportation mechanics, continuous movement functions, grabbing interactables and object placement we included in this project. 
+        Also some non-VR elements such as a scene manager and rotatable objects were included.
+    </p>
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+    
+      <img src="images/sceneview_vr.gif" alt = "screenview_vr gif" style="width: 70%;">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <img src="images/windmill_vr.gif" style="width:70%">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      
+      <img src="images/gameviewfixed_vr_v2.gif" alt = "sofa" style="width:70%">
+      
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 15000); // Change image every 15 seconds
+    }
+    </script>
+</section>
 
 <footer>
     <style>
