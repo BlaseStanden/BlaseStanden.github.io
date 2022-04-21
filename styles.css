@@ -1,6 +1,6 @@
 body 
   {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(216, 216, 216);
 }
 h1 
 {
@@ -29,8 +29,8 @@ footer
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(189, 189, 189);
+    color: white;
     text-align: center;
     z-index: 9999;
 }
@@ -63,7 +63,6 @@ footer
       width: 100%;
     }
 }
-
 /* Video */
 iframe 
 {
@@ -107,13 +106,14 @@ iframe
 }
 
 /* Navbar section */
+
 .nav{
     width: 100%;
     height: 65px;
     position: fixed;
     line-height: 65px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(189, 189, 189);
     z-index: 9999;
 }
 /* Logo Section */
@@ -132,7 +132,7 @@ iframe
 }
 
 .nav div.logo a:hover {
-    color: #661010;
+    color: #000000;
 }
 
 /* Main List Section */
@@ -266,11 +266,9 @@ iframe
     
     .nav div.main_list{
         width: 100%;
-        /*margin-top: 65px;*/
+        margin-top: 65px;
         height: 0px;
         overflow: hidden;
-        top: 0;
-        position: fixed;
     }
     
     .nav div.show_list{
@@ -289,7 +287,7 @@ iframe
     .nav div.main_list ul li{
         width: 100%;
         height: 40px;
-        background-color:rgba(255, 255, 255, 0.8);
+        background-color:rgba(0,0,255,0.8);
     }
     
     .nav div.main_list ul li a{
